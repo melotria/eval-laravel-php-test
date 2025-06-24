@@ -17,6 +17,6 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: jetbrains-junie/junie-workflows/.github/workflows/ej-issue.yml@main
+    uses: melotria/junie-workflows/.github/workflows/ej-issue.yml@no-defined-stack
     with:
       workflow_params: ${{ inputs.workflow_params }}
